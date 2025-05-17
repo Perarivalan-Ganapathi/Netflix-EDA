@@ -39,7 +39,7 @@ def footer():
 
 # Import dataset
 
-df=pd.read_csv("C:\\Users\\perar\\Desktop\\Netflix_movies_and_tv_shows_clustering.csv\\Cleaned_Netflix_Data.csv")
+df=pd.read_csv("Cleaned_Netflix_Data.csv")
 
 # Modify the dataset in require format for your work
 df['date_added'] = pd.to_datetime(df['date_added'])
