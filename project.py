@@ -52,7 +52,7 @@ st.markdown("An interactive dashboard showcasing insights from Netflix's content
 
 # Recommendation System
 st.header("🎥 Enter a title to get relevant Movies/Series")
-titl = st.text_input("Enter a title & click Get Recommendation :").lower()
+titl = st.text_input("Enter & click Get Recommendation :").lower()
 no_of_recommend=st.slider('Set no of relevant title you want!', 1, 10, 5)
 
 # create a column that contains cast and type of shows
