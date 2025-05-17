@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df=pd.read_csv("C:\\Users\\perar\\Desktop\\Netflix_movies_and_tv_shows_clustering.csv\\Cleaned_Netflix_Data.csv")
+df=pd.read_csv("Cleaned_Netflix_Data.csv")
 
 def sentiment_analyzer(text):
     analysis = TextBlob(text)
