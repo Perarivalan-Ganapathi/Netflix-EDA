@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-df=pd.read_csv("C:\\Users\\perar\\Desktop\\Netflix_movies_and_tv_shows_clustering.csv\\Netflix_movies_and_tv_shows_clustering.csv")
+df=pd.read_csv("Netflix_movies_and_tv_shows_clustering.csv")
 
 # Fill the Missing values with Unknown or NA
 df['director'] = df['director'].fillna('Unknown')
