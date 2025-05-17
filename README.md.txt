@@ -12,3 +12,6 @@ pip install -r requirements.txt
 to run the simulation in you environment
 streamlit run dashboard/app.py
 
+to see the project
+https://netflix-eda-hzjnstggg3bofk4pxxeik9.streamlit.app
+
