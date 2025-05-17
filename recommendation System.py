@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 
-df=pd.read_csv("C:\\Users\\perar\\Desktop\\Netflix_movies_and_tv_shows_clustering.csv\\Cleaned_Netflix_Data.csv")
+df=pd.read_csv("Cleaned_Netflix_Data.csv")
 
 df['combined_column'] = df['listed_in'] + ' ' + df['cast']
 
